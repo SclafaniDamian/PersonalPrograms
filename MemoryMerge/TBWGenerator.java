@@ -4,7 +4,7 @@ package MemoryMerge;
 public class TBWGenerator {
     
     public String generateAny() {
-        int rand = (int)(Math.random()*12);     // not complete amount - +unlockable +equipment +full force
+        int rand = (int)(Math.random()*195);     // not complete amount - +unlockable +equipment +full force
         String result = "";
         switch (rand) {
             case 0:
@@ -192,6 +192,369 @@ public class TBWGenerator {
                 break;
             case 61:
                 result += "E62. Rocket Fists";
+                break;
+            case 62:
+                result += "E63. Thunder Bolt";
+                break;
+            case 63:
+                result += "E64. Geometry";
+                break;
+            case 64:
+                result += "E65. Trigonometry";
+                break;
+            case 65:
+                result += "E66. Calculus";
+                break;
+            case 66:
+                result += "E67. Algebra";
+                break;
+            case 67:
+                result += "E68. Earthquake";
+                break;
+            case 68:
+                result += "E69. Halloween Candy";
+                break;
+            case 69:
+                result += "E70. Smoke Machince";
+                break;
+            case 70:
+                result += "E71. Shock Caller";
+                break;
+            case 71:
+                result += "E72. Shock's Package";
+                break;
+            case 72:
+                result += "E73. Cloning Machine";
+                break;
+            case 73:
+                result += "E74. Ammo Box";
+                break;
+            case 74:
+                result += "E75. Smoke Bomb";
+                break;
+            case 75:
+                result += "E76. Mind Control";
+                break;
+            case 76:
+                result += "E77. Fooled";
+                break;
+            case 77:
+                result += "E78. Rock, Paper, Scissors";
+                break;
+            case 78:
+                result += "E79. Pepper Spray";
+                break;
+            case 79:
+                result += "E80. Fresh Meat";
+                break;
+            case 80:
+                result += "E81. Cable";
+                break;
+            case 81:
+                result += "E82. Vine Wrap";
+                break;
+            case 82:
+                result += "E83. Reflector Shield";
+                break;
+            case 83:
+                result += "E84. Medical Grenades";
+                break;
+            case 84:
+                result += "E85. Electrolight";
+                break;
+            case 85:
+                result += "E86. Disease";
+                break;
+            case 86:
+                result += "E87. Time to Shine";
+                break;
+            case 87:
+                result += "E88. Chisel";
+                break;
+            case 88:
+                result += "E89. Breaker";
+                break;
+            case 89:
+                result += "E90. Sprout";
+                break;
+            case 90:
+                result += "E91. Padlock";
+                break;
+            case 91:
+                result += "E92. Battlecry";
+                break;
+            case 92:
+                result += "E93. Spiked Hook";
+                break;
+            case 93:
+                result += "E94. Freeze";
+                break;
+            case 94:
+                result += "E95. Mana Shield";
+                break;
+            case 95:
+                result += "E96. Flameroast";
+                break;
+            case 96:
+                result += "E97. Duelist";
+                break;
+            case 97:
+                result += "E98. Snake Cage";
+                break;
+            case 98:
+                result += "E99. Witch Potion";
+                break;
+            case 99:
+                result += "E100. Crazy Chemicals";
+                break;
+            case 100:
+                result += "E101. Duel";
+                break;
+            case 101:
+                result += "E102. Tournament";
+                break;
+            case 102:
+                result += "E103. Aggressive Current";
+                break;
+            case 103:
+                result += "E104. Zombify";
+                break;
+            case 104:
+                result += "E105. Snake! Eagle! Person!";
+                break;
+            case 105:
+                result += "E106. Brawl";
+                break;
+            case 106:
+                result += "E107. Double Dice";
+                break;
+            case 107:
+                result += "E108. Necromius, The Legendary Blade";
+                break;
+            case 108:
+                result += "E109. Rattle";
+                break;
+            case 109:
+                result += "E110. Battleheart";
+                break;
+            case 110:
+                result += "E111. Leech Life";
+                break;
+            case 111:
+                result += "E112. Fireball";
+                break;
+            case 112:
+                result += "E113. Blazing Arrow";
+                break;
+            case 113:
+                result += "E114. Geyser";
+                break;
+            case 114:
+                result += "E115. Twig of Gifting";
+                break;
+            case 115:
+                result += "E116. Sky Light; Snowball";
+                break;
+            case 116:
+                result += "E117. Throwing Knife";
+                break;
+            case 117:
+                result += "E118. Sky Light; Mecha-Hawk";
+                break;
+            case 118:
+                result += "E119. Battlerage";
+                break;
+            case 119:
+                result += "E120. Lunge";
+                break;
+            case 120:
+                result += "E121. Syringe";
+                break;
+            case 121:
+                result += "E122. Bag of Bones";
+                break;
+            case 122:
+                result += "E123. Blessings";
+                break;
+            case 123:
+                result += "E124. Minions!";
+                break;
+            case 124:
+                result += "E125. Refreshment";
+                break;
+            case 125:
+                result += "E126. Necro Arrow";
+                break;
+            case 126:
+                result += "E127. Unprepared Medkit";
+                break;
+            case 127:
+                result += "E128. Cupid's Arrow";
+                break;
+            case 128:
+                result += "E129. Hammer Toss";
+                break;
+            case 129:
+                result += "E130. Life Drain";
+                break;
+            case 130:
+                result += "E131. Vampiric";
+                break;
+            case 131:
+                result += "E132. Care Package";
+                break;
+            case 132:
+                result += "E133. Wish";
+                break;
+            case 133:
+                result += "E134. Inner Beast";
+                break;
+            case 134:
+                result += "E135. Stake";
+                break;
+            case 135:
+                result += "E136. Horn";
+                break;
+            case 136:
+                result += "E137. Sacred Spell";
+                break;
+            case 137:
+                result += "E138. Goop Spray";
+                break;
+            case 138:
+                result += "E139. Secret Relic";
+                break;
+            case 139:
+                result += "E140. Forgotten Relic";
+                break;
+            case 140:
+                result += "E141. Ancient Relic";
+                break;
+            case 141:
+                result += "E142. Overgrowth";
+                break;
+            case 142:
+                result += "E143. Neutral Energy";
+                break;
+            case 143:
+                result += "E144. Pocket Sand";
+                break;
+            case 144:
+                result += "E145. Leap";
+                break;
+            case 145:
+                result += "E146. Sprint";
+                break;
+            case 146:
+                result += "E147. Bet";
+                break;
+            case 147:
+                result += "E148. Recreate";
+                break;
+            case 148:
+                result += "E149. Crushing Blow";
+                break;
+            case 149:
+                result += "E150. Air Strike";
+                break;
+            case 150:
+                result += "E151. Storm Cloud";
+                break;
+            case 151:
+                result += "E152. Wave";
+                break;
+            case 152:
+                result += "E153. Positive Energy";
+                break;
+            case 153:
+                result += "E154. Arcane Bomb";
+                break;
+            case 154:
+                result += "E155. Inferno";
+                break;
+            case 155:
+                result += "E156. Earthen Might";
+                break;
+            case 156:
+                result += "E157. Regrow";
+                break;
+            case 157:
+                result += "E158. Blood Burst";
+                break;
+            case 158:
+                result += "E159. Yellow Potion";
+                break;
+            case 159:
+                result += "E160. Gray Potion";
+                break;
+            case 160:
+                result += "E161. Red Potion";
+                break;
+            case 161:
+                result += "E162. Purple Potion";
+                break;
+            case 162:
+                result += "E163. Orange Potion";
+                break;
+            case 163:
+                result += "E164. Green Potion";
+                break;
+            case 164:
+                result += "E165. Blue Potion";
+                break;
+            case 165:
+                result += "E166. White Potion";
+                break;
+            case 166:
+                result += "E167. Black Potion";
+                break;
+            case 167:
+                result += "E168. Pink Potion";
+                break;
+            case 168:
+                result += "E169. Rainbow Potion";
+                break;
+            case 169:
+                result += "E170. Gust";
+                break;
+            case 170:
+                result += "E171. Sunshine";
+                break;
+            case 171:
+                result += "E172. Dark Pact";
+                break;
+            case 172:
+                result += "E173. Icicles";
+                break;
+            case 173:
+                result += "E174. Goop Shield";
+                break;
+            case 174:
+                result += "E175. Slam";
+                break;
+            case 175:
+                result += "E176. Force Field";
+                break;
+            case 176:
+                result += "E177. River";
+                break;
+            case 177:
+                result += "E178. Elemental Blast";
+                break;
+            case 178:
+                result += "E179. Telekinesis";
+                break;
+            case 179:
+                result += "E180. Sap";
+                break;
+            case 180:
+                result += "E181. Laser Pointer";
+                break;
+            case 181:
+                result += "E182. Molten Armor";
+                break;
+            case 182:
+                result += "E183. Scope";
                 break;
             case 183:
                 result += "S1. Knight";
@@ -234,7 +597,7 @@ public class TBWGenerator {
     }
 
     public String generateEquipment() {
-        int rand = (int)(Math.random()*62);     // not complete amount - 183
+        int rand = (int)(Math.random()*183);
         String result = "";
         switch (rand) {
             case 0:
@@ -422,6 +785,369 @@ public class TBWGenerator {
                 break;
             case 61:
                 result += "E62. Rocket Fists";
+                break;
+            case 62:
+                result += "E63. Thunder Bolt";
+                break;
+            case 63:
+                result += "E64. Geometry";
+                break;
+            case 64:
+                result += "E65. Trigonometry";
+                break;
+            case 65:
+                result += "E66. Calculus";
+                break;
+            case 66:
+                result += "E67. Algebra";
+                break;
+            case 67:
+                result += "E68. Earthquake";
+                break;
+            case 68:
+                result += "E69. Halloween Candy";
+                break;
+            case 69:
+                result += "E70. Smoke Machince";
+                break;
+            case 70:
+                result += "E71. Shock Caller";
+                break;
+            case 71:
+                result += "E72. Shock's Package";
+                break;
+            case 72:
+                result += "E73. Cloning Machine";
+                break;
+            case 73:
+                result += "E74. Ammo Box";
+                break;
+            case 74:
+                result += "E75. Smoke Bomb";
+                break;
+            case 75:
+                result += "E76. Mind Control";
+                break;
+            case 76:
+                result += "E77. Fooled";
+                break;
+            case 77:
+                result += "E78. Rock, Paper, Scissors";
+                break;
+            case 78:
+                result += "E79. Pepper Spray";
+                break;
+            case 79:
+                result += "E80. Fresh Meat";
+                break;
+            case 80:
+                result += "E81. Cable";
+                break;
+            case 81:
+                result += "E82. Vine Wrap";
+                break;
+            case 82:
+                result += "E83. Reflector Shield";
+                break;
+            case 83:
+                result += "E84. Medical Grenades";
+                break;
+            case 84:
+                result += "E85. Electrolight";
+                break;
+            case 85:
+                result += "E86. Disease";
+                break;
+            case 86:
+                result += "E87. Time to Shine";
+                break;
+            case 87:
+                result += "E88. Chisel";
+                break;
+            case 88:
+                result += "E89. Breaker";
+                break;
+            case 89:
+                result += "E90. Sprout";
+                break;
+            case 90:
+                result += "E91. Padlock";
+                break;
+            case 91:
+                result += "E92. Battlecry";
+                break;
+            case 92:
+                result += "E93. Spiked Hook";
+                break;
+            case 93:
+                result += "E94. Freeze";
+                break;
+            case 94:
+                result += "E95. Mana Shield";
+                break;
+            case 95:
+                result += "E96. Flameroast";
+                break;
+            case 96:
+                result += "E97. Duelist";
+                break;
+            case 97:
+                result += "E98. Snake Cage";
+                break;
+            case 98:
+                result += "E99. Witch Potion";
+                break;
+            case 99:
+                result += "E100. Crazy Chemicals";
+                break;
+            case 100:
+                result += "E101. Duel";
+                break;
+            case 101:
+                result += "E102. Tournament";
+                break;
+            case 102:
+                result += "E103. Aggressive Current";
+                break;
+            case 103:
+                result += "E104. Zombify";
+                break;
+            case 104:
+                result += "E105. Snake! Eagle! Person!";
+                break;
+            case 105:
+                result += "E106. Brawl";
+                break;
+            case 106:
+                result += "E107. Double Dice";
+                break;
+            case 107:
+                result += "E108. Necromius, The Legendary Blade";
+                break;
+            case 108:
+                result += "E109. Rattle";
+                break;
+            case 109:
+                result += "E110. Battleheart";
+                break;
+            case 110:
+                result += "E111. Leech Life";
+                break;
+            case 111:
+                result += "E112. Fireball";
+                break;
+            case 112:
+                result += "E113. Blazing Arrow";
+                break;
+            case 113:
+                result += "E114. Geyser";
+                break;
+            case 114:
+                result += "E115. Twig of Gifting";
+                break;
+            case 115:
+                result += "E116. Sky Light; Snowball";
+                break;
+            case 116:
+                result += "E117. Throwing Knife";
+                break;
+            case 117:
+                result += "E118. Sky Light; Mecha-Hawk";
+                break;
+            case 118:
+                result += "E119. Battlerage";
+                break;
+            case 119:
+                result += "E120. Lunge";
+                break;
+            case 120:
+                result += "E121. Syringe";
+                break;
+            case 121:
+                result += "E122. Bag of Bones";
+                break;
+            case 122:
+                result += "E123. Blessings";
+                break;
+            case 123:
+                result += "E124. Minions!";
+                break;
+            case 124:
+                result += "E125. Refreshment";
+                break;
+            case 125:
+                result += "E126. Necro Arrow";
+                break;
+            case 126:
+                result += "E127. Unprepared Medkit";
+                break;
+            case 127:
+                result += "E128. Cupid's Arrow";
+                break;
+            case 128:
+                result += "E129. Hammer Toss";
+                break;
+            case 129:
+                result += "E130. Life Drain";
+                break;
+            case 130:
+                result += "E131. Vampiric";
+                break;
+            case 131:
+                result += "E132. Care Package";
+                break;
+            case 132:
+                result += "E133. Wish";
+                break;
+            case 133:
+                result += "E134. Inner Beast";
+                break;
+            case 134:
+                result += "E135. Stake";
+                break;
+            case 135:
+                result += "E136. Horn";
+                break;
+            case 136:
+                result += "E137. Sacred Spell";
+                break;
+            case 137:
+                result += "E138. Goop Spray";
+                break;
+            case 138:
+                result += "E139. Secret Relic";
+                break;
+            case 139:
+                result += "E140. Forgotten Relic";
+                break;
+            case 140:
+                result += "E141. Ancient Relic";
+                break;
+            case 141:
+                result += "E142. Overgrowth";
+                break;
+            case 142:
+                result += "E143. Neutral Energy";
+                break;
+            case 143:
+                result += "E144. Pocket Sand";
+                break;
+            case 144:
+                result += "E145. Leap";
+                break;
+            case 145:
+                result += "E146. Sprint";
+                break;
+            case 146:
+                result += "E147. Bet";
+                break;
+            case 147:
+                result += "E148. Recreate";
+                break;
+            case 148:
+                result += "E149. Crushing Blow";
+                break;
+            case 149:
+                result += "E150. Air Strike";
+                break;
+            case 150:
+                result += "E151. Storm Cloud";
+                break;
+            case 151:
+                result += "E152. Wave";
+                break;
+            case 152:
+                result += "E153. Positive Energy";
+                break;
+            case 153:
+                result += "E154. Arcane Bomb";
+                break;
+            case 154:
+                result += "E155. Inferno";
+                break;
+            case 155:
+                result += "E156. Earthen Might";
+                break;
+            case 156:
+                result += "E157. Regrow";
+                break;
+            case 157:
+                result += "E158. Blood Burst";
+                break;
+            case 158:
+                result += "E159. Yellow Potion";
+                break;
+            case 159:
+                result += "E160. Gray Potion";
+                break;
+            case 160:
+                result += "E161. Red Potion";
+                break;
+            case 161:
+                result += "E162. Purple Potion";
+                break;
+            case 162:
+                result += "E163. Orange Potion";
+                break;
+            case 163:
+                result += "E164. Green Potion";
+                break;
+            case 164:
+                result += "E165. Blue Potion";
+                break;
+            case 165:
+                result += "E166. White Potion";
+                break;
+            case 166:
+                result += "E167. Black Potion";
+                break;
+            case 167:
+                result += "E168. Pink Potion";
+                break;
+            case 168:
+                result += "E169. Rainbow Potion";
+                break;
+            case 169:
+                result += "E170. Gust";
+                break;
+            case 170:
+                result += "E171. Sunshine";
+                break;
+            case 171:
+                result += "E172. Dark Pact";
+                break;
+            case 172:
+                result += "E173. Icicles";
+                break;
+            case 173:
+                result += "E174. Goop Shield";
+                break;
+            case 174:
+                result += "E175. Slam";
+                break;
+            case 175:
+                result += "E176. Force Field";
+                break;
+            case 176:
+                result += "E177. River";
+                break;
+            case 177:
+                result += "E178. Elemental Blast";
+                break;
+            case 178:
+                result += "E179. Telekinesis";
+                break;
+            case 179:
+                result += "E180. Sap";
+                break;
+            case 180:
+                result += "E181. Laser Pointer";
+                break;
+            case 181:
+                result += "E182. Molten Armor";
+                break;
+            case 182:
+                result += "E183. Scope";
                 break;
         }
         return result;
