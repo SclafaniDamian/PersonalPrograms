@@ -9,7 +9,7 @@ public class MemoryMergeDriver {
     public MemoryMergeDriver() {
         scanner = new Scanner(System.in);
         options[0] = "Quit";
-        options[1] = "Select Random Gamemode + Character for Memory Merge";
+        options[1] = "Select Random Character + Gamemode for Memory Merge";
         options[2] = "Select Random Explore";
         options[3] = "Use XP Generator";
         options[4] = "Gain a TBW Character";
@@ -30,10 +30,12 @@ public class MemoryMergeDriver {
                     quit = true;
                     break;
                 case 1:
-                    // TODO
+                    MemoryMergePicks playing = new MemoryMergePicks();
+                    System.out.println(playing.gameSelect());
                     break;
                 case 2:
-                    // TODO
+                    MemoryMergePicks exploring = new MemoryMergePicks();
+                    System.out.println(exploring.exploreSelect());
                     break;
                 case 3:
                     System.out.println("Enter the level of the player:");
