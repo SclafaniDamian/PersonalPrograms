@@ -1,6 +1,5 @@
 // Made By Damian Sclafani
 package MemoryMerge;
-import java.util.Random;
 
 public class MemoryMergePicks {
 

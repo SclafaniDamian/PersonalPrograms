@@ -59,13 +59,31 @@ public class MemoryMergeDriver {
                     System.out.println(generator.generate(xp));
                     break;
                 case 4:
-                    // TODO
+                    System.out.println("Enter the amount of TBW characters you unlocked:");
+                    int countC = scanner.nextInt();
+                    scanner.nextLine();
+                    TBWGenerator generatorTBW = new TBWGenerator();
+                    for (int i = 0; i < countC; i++) {
+                        System.out.println(generatorTBW.generateAny());
+                    }
                     break;
                 case 5:
-                    // TODO
+                    System.out.println("Enter the amount of TBW equipments you unlocked:");
+                    int countE = scanner.nextInt();
+                    scanner.nextLine();
+                    TBWGenerator generatorEquipment = new TBWGenerator();
+                    for (int i = 0; i < countE; i++) {
+                        System.out.println(generatorEquipment.generateEquipment());
+                    }
                     break;
                 case 6:
-                    // TODO
+                    System.out.println("Enter the amount of TOM characters you unlocked:");
+                    int countT = scanner.nextInt();
+                    scanner.nextLine();
+                    TOMGenerator generatorTOM = new TOMGenerator();
+                    for (int i = 0; i < countT; i++) {
+                        System.out.println(generatorTOM.generator());
+                    }
                     break;
             }
         }
