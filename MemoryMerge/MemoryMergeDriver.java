@@ -31,11 +31,15 @@ public class MemoryMergeDriver {
                     break;
                 case 1:
                     MemoryMergePicks playing = new MemoryMergePicks();
+                    System.out.println();
                     System.out.println(playing.gameSelect());
+                    System.out.println();
                     break;
                 case 2:
                     MemoryMergePicks exploring = new MemoryMergePicks();
+                    System.out.println();
                     System.out.println(exploring.exploreSelect());
+                    System.out.println();
                     break;
                 case 3:
                     System.out.println("Enter the level of the player:");
@@ -56,34 +60,42 @@ public class MemoryMergeDriver {
                         xp += gain;
                     }
                     scanner.nextLine();
+                    System.out.println();
                     System.out.println(generator.generate(xp));
+                    System.out.println();
                     break;
                 case 4:
                     System.out.println("Enter the amount of TBW characters you unlocked:");
                     int countC = scanner.nextInt();
                     scanner.nextLine();
                     TBWGenerator generatorTBW = new TBWGenerator();
+                    System.out.println();
                     for (int i = 0; i < countC; i++) {
                         System.out.println(generatorTBW.generateAny());
                     }
+                    System.out.println();
                     break;
                 case 5:
                     System.out.println("Enter the amount of TBW equipments you unlocked:");
                     int countE = scanner.nextInt();
                     scanner.nextLine();
                     TBWGenerator generatorEquipment = new TBWGenerator();
+                    System.out.println();
                     for (int i = 0; i < countE; i++) {
                         System.out.println(generatorEquipment.generateEquipment());
                     }
+                    System.out.println();
                     break;
                 case 6:
                     System.out.println("Enter the amount of TOM characters you unlocked:");
                     int countT = scanner.nextInt();
                     scanner.nextLine();
                     TOMGenerator generatorTOM = new TOMGenerator();
+                    System.out.println();
                     for (int i = 0; i < countT; i++) {
                         System.out.println(generatorTOM.generator());
                     }
+                    System.out.println();
                     break;
             }
         }
