@@ -134,7 +134,7 @@ public class MemoryMergePicks {
             }
         }
         else if (randC == 1) {
-            result += "Dim Moonlight Characters : ";
+            result += "Dim Moonlight Characters (2) : ";
             randG = (int)(Math.random()*3);
             switch (randG) {
                 case 0:
@@ -149,7 +149,7 @@ public class MemoryMergePicks {
             }
         }
         else if (randC == 2) {
-            result += "Journey Characters : ";
+            result += "Journey Characters (3) : ";
             randG = (int)(Math.random()*29);
             switch (randG) {
                 case 0:
@@ -242,7 +242,7 @@ public class MemoryMergePicks {
             }
         }
         else if (randC == 3) {
-            result += "Tribal Warfare Characters : ";
+            result += "Tribal Warfare Characters (4) : ";
             randG = (int)(Math.random()*38);
             switch (randG) {
                 case 0:
@@ -362,7 +362,7 @@ public class MemoryMergePicks {
             }
         }
         else if (randC > 3 && randC < 10) {
-            result += "Backyard Battles Characters : ";
+            result += "Backyard Battles Characters (5-10) : ";
             randG = (int)(Math.random()*13);
             switch (randG) {
                 case 0:
@@ -413,6 +413,128 @@ public class MemoryMergePicks {
                 case 12:
                     result += "TMC Combat System Beta Gamemode (66)";
                     break;
+            }
+        }
+        else if (randC == 10) {
+            result += "The Battle of Rome Characters (11) : ";
+            randG = (int)(Math.random()*17);
+            switch (randG) {
+                // TODO
+            }
+        }
+        else if (randC == 11) {
+            result += "Kingdoms Arise! Characters (12) : ";
+            randG = (int)(Math.random()*33);
+            switch (randG) {
+                // TODO
+            }
+        }
+        else if (randC == 12) {
+            result += "River of Andigroth Characters (13) : ";
+            randG = (int)(Math.random()*15);
+            switch (randG) {
+                // TODO
+            }
+        }
+        else if (randC == 13) {
+            result += "War of Legends Characters (14) : ";
+            randG = (int)(Math.random()*42);
+            switch (randG) {
+                // TODO
+            }
+        }
+        else if (randC == 14) {
+            result += "The Abandon Shed Characters (15) : ";
+            randG = (int)(Math.random()*3);
+            switch (randG) {
+                // TODO
+            }
+        }
+        else if (randC == 15) {
+            result += "Forgotten Lands Characters (16) : Forgotten Lands Gamemode (16)";
+        }
+        else if (randC == 16) {
+            result += "The Masked Chronicles; From The Past Characters (17) : ";
+            randG = (int)(Math.random()*41);
+            switch (randG) {
+                // TODO
+            }
+        }
+        else if (randC == 17) {
+            result += "Paradox Duel Characters (18) : ";
+            randG = (int)(Math.random()*35);
+            switch (randG) {
+                // TODO
+            }
+        }
+        else if (randC == 18) {
+            result += "Overwatch Personal Creation Characters (19) : ";
+            randG = (int)(Math.random()*12);
+            switch (randG) {
+                // TODO
+            }
+        }
+        else if (randC == 19) {
+            result += "Class Warfare Characters (20) : ";
+            randG = (int)(Math.random()*44);
+            switch (randG) {
+                // TODO
+            }
+        }
+        else if (randC == 20) {
+            result += "Nerf War Characters (21) : ";
+            randG = (int)(Math.random()*29);
+            switch (randG) {
+                // TODO
+            }
+        }
+        else if (randC == 21) {
+            result += "Turn Based Warfare; Medieval Mode Characters (22) : ";
+            randG = (int)(Math.random()*44);
+            switch (randG) {
+                // TODO
+            }
+        }
+        else if (randC == 22) {
+            result += "Turn Based Warfare; Modern Mode Characters (23) : ";
+            randG = (int)(Math.random()*44);
+            switch (randG) {
+                // TODO
+            }
+        }
+        else if (randC == 23) {
+            result += "Turn Based Warfare; Futuristic Mode Characters (24) : ";
+            randG = (int)(Math.random()*44);
+            switch (randG) {
+                // TODO
+            }
+        }
+        else if (randC == 24) {
+            result += "Turn Based Warfare; Prehistoric Mode Characters (25) : ";
+            randG = (int)(Math.random()*44);
+            switch (randG) {
+                // TODO
+            }
+        }
+        else if (randC == 25) {
+            result += "Turn Based Warfare; Paradox Mode Characters (26) : ";
+            randG = (int)(Math.random()*44);
+            switch (randG) {
+                // TODO
+            }
+        }
+        else if (randC == 26) {
+            result += "Turn Based Warfare; Random Mode Characters (27) : ";
+            randG = (int)(Math.random()*42);
+            switch (randG) {
+                // TODO
+            }
+        }
+        else if (randC == 27) {
+            result += "Domains (Beta) Characters (28) : ";
+            randG = (int)(Math.random()*4);
+            switch (randG) {
+                // TODO
             }
         }
         // TODO - add the rest of the gamemodes
