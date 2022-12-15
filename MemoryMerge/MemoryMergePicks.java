@@ -294,70 +294,70 @@ public class MemoryMergePicks {
                     result += "Spirit Warfare Gamemode (25)";
                     break;
                 case 16:
-                    result += "Last Stand Gamemode ()";
+                    result += "Last Stand Gamemode (26)";
                     break;
                 case 17:
-                    result += "Turn Based Battle Gamemode ()";
+                    result += "Turn Based Battle Gamemode (27)";
                     break;
                 case 18:
-                    result += "Juggernaut Gamemode ()";
+                    result += "Juggernaut Gamemode (31)";
                     break;
                 case 19:
-                    result += "Team Deathmatch Gamemode ()";
+                    result += "Team Deathmatch Gamemode (32)";
                     break;
                 case 20:
-                    result += "Hide & Find Gamemode ()";
+                    result += "Hide & Find Gamemode (33)";
                     break;
                 case 21:
-                    result += "Quicksand Gamemode ()";
+                    result += "Quicksand Gamemode (34)";
                     break;
                 case 22:
-                    result += "Team Turn Based Battles Gamemode ()";
+                    result += "Team Turn Based Battles Gamemode (37)";
                     break;
                 case 23:
-                    result += "Elimination Gamemode ()";
+                    result += "Elimination Gamemode (38)";
                     break;
                 case 24:
-                    result += "Push the Boulder Gamemode ()";
+                    result += "Push the Boulder Gamemode (39)";
                     break;
                 case 25:
-                    result += "First to Twenty Gamemode ()";
+                    result += "First to Twenty Gamemode (40)";
                     break;
                 case 26:
-                    result += "The Long Run Gamemode ()";
+                    result += "The Long Run Gamemode (41)";
                     break;
                 case 27:
-                    result += "Do Damage Gamemode ()";
+                    result += "Do Damage Gamemode (43)";
                     break;
                 case 28:
-                    result += "Virus Gamemode ()";
+                    result += "Virus Gamemode (44)";
                     break;
                 case 29:
-                    result += "Protect the King Gamemode ()";
+                    result += "Protect the King Gamemode (45)";
                     break;
                 case 30:
-                    result += "Hunter Gamemode ()";
+                    result += "Hunter Gamemode (46)";
                     break;
                 case 31:
-                    result += "360 Ball Tag Gamemode ()";
+                    result += "360 Ball Tag Gamemode (54)";
                     break;
                 case 32:
-                    result += "Terrorist Gamemode ()";
+                    result += "Terrorist Gamemode (55)";
                     break;
                 case 33:
-                    result += "Collector Gamemode ()";
+                    result += "Collector Gamemode (56)";
                     break;
                 case 34:
-                    result += "Hybrid Gamemode ()";
+                    result += "Hybrid Gamemode (57)";
                     break;
                 case 35:
-                    result += "Nuke Gamemode ()";
+                    result += "Nuke Gamemode (62)";
                     break;
                 case 36:
-                    result += "Dark Forest Gamemode ()";
+                    result += "Dark Forest Gamemode (67)";
                     break;
                 case 37:
-                    result += "Elemental Warfare Gamemode ()";
+                    result += "Elemental Warfare Gamemode (68)";
                     break;
             }
         }
@@ -366,22 +366,22 @@ public class MemoryMergePicks {
             randG = (int)(Math.random()*13);
             switch (randG) {
                 case 0:
-                    result += "Coin Finder (Backyard Battles Version) Gamemode ()";
+                    result += "Coin Finder (Backyard Battles Version) Gamemode (7)";
                     break;
                 case 1:
-                    result += "Town of Lies Gamemode ()";
+                    result += "Town of Lies Gamemode (8)";
                     break;
                 case 2:
-                    result += "Hand of Kings Gamemode ()";
+                    result += "Hand of Kings Gamemode (9)";
                     break;
                 case 3:
-                    result += "Card Warz Gamemode ()";
+                    result += "Card Warz Gamemode (13)";
                     break;
                 case 4:
-                    result += "Kingdom Fight Gamemode ()";
+                    result += "Kingdom Fight Gamemode (11)";
                     break;
                 case 5:
-                    result += "High Stakes Gamemode ()";
+                    result += "High Stakes Gamemode (12)";
                     break;
                 case 6:
                     result += "Forgotten Lands Gamemode (16)";
@@ -390,28 +390,28 @@ public class MemoryMergePicks {
                     result += "Forgotten Lands Gamemode (16)";
                     break;
                 case 8:
-                    result += "Protection of the King Gamemode ()";
+                    result += "Protection of the King Gamemode (24)";
                     break;
                 case 9:
-                    result += "Coin Finder (Temple of Memories Version) Gamemode ()";
+                    result += "Coin Finder (Temple of Memories Version) Gamemode (35)";
                     break;
                 case 10:
-                    result += "Temple of Memories Village Trials Challenge Gamemode ()";
+                    result += "Temple of Memories Village Trials Challenge Gamemode (50)";
                     break;
                 case 11:
-                    result += "Temple of Memories Underground Casino Challenge (); ";
+                    result += "Temple of Memories Underground Casino Challenge (53); ";
                     int randCasino = (int)(Math.random()*2);
                     switch (randCasino) {
                         case 0:
-                            result += "Coin Finder (Temple of Memories Version) Gamemode ()";
+                            result += "Coin Finder (Temple of Memories Version) Gamemode (35)";
                             break;
                         case 1:
-                            result += "Hand of Kings Gamemode ()";
+                            result += "Hand of Kings Gamemode (9)";
                             break;
                     }
                     break;
                 case 12:
-                    result += "TMC Combat System Beta Gamemode ()";
+                    result += "TMC Combat System Beta Gamemode (66)";
                     break;
             }
         }
