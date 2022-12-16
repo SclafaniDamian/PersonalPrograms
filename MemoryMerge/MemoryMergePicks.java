@@ -4,7 +4,7 @@ package MemoryMerge;
 public class MemoryMergePicks {
 
     public String gameSelect() {
-        int randC = (int)(Math.random()*12);     // should be *64
+        int randC = (int)(Math.random()*16);     // should be *64
         int randG = 0;
         String result = "";
         if (randC == 0) {
@@ -579,23 +579,196 @@ public class MemoryMergePicks {
         }
         else if (randC == 12) {
             result += "River of Andigroth Characters (13) : ";
-            randG = (int)(Math.random()*15);
+            randG = (int)(Math.random()*14);
             switch (randG) {
-                // TODO
+                case 0:
+                    result += "Dim Moonlight Gamemode (1)";
+                    break;
+                case 1:
+                    result += "Tribal Warfare Gamemode (5)";
+                    break;
+                case 2:
+                    result += "Upgraded Utility (10)";
+                    break;
+                case 3:
+                    result += "Gemstone Cave (15)";
+                    break;
+                case 4:
+                    result += "Forgotten Lands Gamemode (16)";
+                    break;
+                case 5:
+                    result += "Full Moon Gamemode (17)";
+                    break;
+                case 6:
+                    result += "Free For All Gamemode (19)";
+                    break;
+                case 7:
+                    result += "Tournament Gamemode (20)";
+                    break;
+                case 8:
+                    result += "Capture The Flag Gamemode (21)";
+                    break;
+                case 9:
+                    result += "King of the Hill Gamemode (22)";
+                    break;
+                case 10:
+                    result += "Kingdom King of the Hill Gamemode (23)";
+                    break;
+                case 11:
+                    result += "Spirit Warfare Gamemode (25)";
+                    break;
+                case 12:
+                    result += "Quicksand Gamemode ()";
+                    break;
+                case 13:
+                    result += "Nuke Gamemode ()";
+                    break;
             }
         }
         else if (randC == 13) {
             result += "War of Legends Characters (14) : ";
             randG = (int)(Math.random()*42);
             switch (randG) {
-                // TODO
+                case 0:
+                    result += "Dim Moonlight Gamemode (1)";
+                    break;
+                case 1:
+                    result += "Capture The Relic Gamemode (2)";
+                    break;
+                case 2:
+                    result += "Deathmatch Gamemode (3)";
+                    break;
+                case 3:
+                    result += "TB Deathmatch Gamemode (4)";
+                    break;
+                case 4:
+                    result += "Tribal Warfare Gamemode (5)";
+                    break;
+                case 5:
+                    result += "Kingdom Brawl Gamemode (6)";
+                    break;
+                case 6:
+                    result += "Upgraded Utility Gamemode (10)";
+                    break;
+                case 7:
+                    result += "Fight For Glory Gamemode (14)";
+                    break;
+                case 8:
+                    result += "Gemstone Cave Gamemode (15)";
+                    break;
+                case 9:
+                    result += "Forgotten Lands Gamemode (16)";
+                    break;
+                case 10:
+                    result += "Full Moon Gamemode (17)";
+                    break;
+                case 11:
+                    result += "Free For All Gamemode (19)";
+                    break;
+                case 12:
+                    result += "Tournament Gamemode (20)";
+                    break;
+                case 13:
+                    result += "Capture The Flag Gamemode (21)";
+                    break;
+                case 14:
+                    result += "King of the Hill Gamemode (22)";
+                    break;
+                case 15:
+                    result += "Kingdom King of the Hill Gamemode (23)";
+                    break;
+                case 16:
+                    result += "Spirit Warfare Gamemode (25)";
+                    break;
+                case 17:
+                    result += "Last Stand Gamemode (26)";
+                    break;
+                case 18:
+                    result += "Turn Based Battle Gamemode (27)";
+                    break;
+                case 19:
+                    result += "Juggernaut Gamemode (31)";
+                    break;
+                case 20:
+                    result += "Team Deathmatch Gamemode (32)";
+                    break;
+                case 21:
+                    result += "Hide & Find Gamemode (33)";
+                    break;
+                case 22:
+                    result += "Quicksand Gamemode (34)";
+                    break;
+                case 23:
+                    result += "Team Turn Based Battles Gamemode (37)";
+                    break;
+                case 24:
+                    result += "Elimination Gamemode (38)";
+                    break;
+                case 25:
+                    result += "Push the Boulder Gamemode (39)";
+                    break;
+                case 26:
+                    result += "First to Twenty Gamemode (40)";
+                    break;
+                case 27:
+                    result += "The Long Run Gamemode (41)";
+                    break;
+                case 28:
+                    result += "Do Damage Gamemode (43)";
+                    break;
+                case 29:
+                    result += "Virus Gamemode (44)";
+                    break;
+                case 30:
+                    result += "Protect the King Gamemode (45)";
+                    break;
+                case 31:
+                    result += "Hunter Gamemode (46)";
+                    break;
+                case 32:
+                    result += "360 Ball Tag Gamemode (54)";
+                    break;
+                case 33:
+                    result += "Terrorist Gamemode (55)";
+                    break;
+                case 34:
+                    result += "Collector Gamemode (56)";
+                    break;
+                case 35:
+                    result += "Hybrid Gamemode (57)";
+                    break;
+                case 36:
+                    result += "Limited Supplies Gamemode (61)";
+                    break;
+                case 37:
+                    result += "Nuke Gamemode (62)";
+                    break;
+                case 38:
+                    result += "Dark Forest Gamemode (67)";
+                    break;
+                case 39:
+                    result += "Elemental Warfare Gamemode (68)";
+                    break;
+                case 40:
+                    result += "Quest For Glory Gamemode (69)";
+                    break;
+                case 41:
+                    result += "War of Time Gamemode (70)";
+                    break;
             }
         }
         else if (randC == 14) {
             result += "The Abandon Shed Characters (15) : ";
             randG = (int)(Math.random()*3);
             switch (randG) {
-                // TODO
+                case 0:
+                    result += "Dim Moonlight Gamemode (1)";
+                    break;
+                case 1:
+                    result += "Forgotten Lands Gamemode (16)";
+                    break;
+                case 2:
+                    result += "Full Moon Gamemode (17)";
             }
         }
         else if (randC == 15) {
