@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class MemoryMergeDriver {
     private Scanner scanner;
-    private String[] options = new String[7];
+    private String[] options = new String[8];
 
     public MemoryMergeDriver() {
         scanner = new Scanner(System.in);
@@ -15,6 +15,7 @@ public class MemoryMergeDriver {
         options[4] = "Gain a TBW Character";
         options[5] = "Gain a TBW Equipment";
         options[6] = "Gain a TOM Character";
+        options[7] = "Pick a Card";
     }
 
     public void runDriver() {
@@ -96,6 +97,14 @@ public class MemoryMergeDriver {
                         System.out.println(generatorTOM.generator());
                     }
                     System.out.println();
+                    break;
+                case 7:
+                    PickACard deck = new PickACard();
+                    System.out.println("How many cards are being drawn?");
+                    int draw = scanner.nextInt();
+                    for (int i = 0; i < draw; i++) {
+                        System.out.println(deck.drawCard());
+                    }
                     break;
             }
         }
