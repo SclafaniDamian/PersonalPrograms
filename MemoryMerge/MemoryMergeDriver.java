@@ -4,18 +4,19 @@ import java.util.Scanner;
 
 public class MemoryMergeDriver {
     private Scanner scanner;
-    private String[] options = new String[8];
+    private String[] options = new String[9];
 
     public MemoryMergeDriver() {
         scanner = new Scanner(System.in);
         options[0] = "Quit";
-        options[1] = "Select Random Character + Gamemode for Memory Merge";
+        options[1] = "Select Random Character + Gamemode for Memory Merge (UNFINISHED)";
         options[2] = "Select Random Explore";
         options[3] = "Use XP Generator";
-        options[4] = "Gain a TBW Character";
+        options[4] = "Gain a TBW Character (UNFINISHED)";
         options[5] = "Gain a TBW Equipment";
-        options[6] = "Gain a TOM Character";
+        options[6] = "Gain a TOM Character (UNFINISHED)";
         options[7] = "Pick a Card";
+        options[8] = "Scavenge for a Domains Item (UNFINSIHED)";
     }
 
     public void runDriver() {
@@ -102,10 +103,43 @@ public class MemoryMergeDriver {
                     PickACard deck = new PickACard();
                     System.out.println("How many cards are being drawn?");
                     int draw = scanner.nextInt();
+                    scanner.nextLine();
                     for (int i = 0; i < draw; i++) {
                         System.out.println(deck.drawCard());
                     }
                     break;
+                case 8:
+                    DomainsScavenge scavenging = new DomainsScavenge();
+                    System.out.println("Where are you scavenging from?");
+                    scavenging.printList();
+                    int input = scanner.nextInt();
+                    scanner.nextLine();
+                    System.out.println("How many items are you scavenging from here?");
+                    int count = scanner.nextInt();
+                    scanner.nextLine();
+                    if (input == 0) {
+                        for (int i = 0; i < count; i++) {
+                            System.out.println(scavenging.scavengeAny());
+                        }
+                    }
+                    else if (input == 1) {
+                        for (int i = 0; i < count; i++) {
+                            System.out.println(scavenging.scavengeKA());
+                        }
+                    }
+                    else if (input == 2) {
+                        for (int i = 0; i < count; i++) {
+                            System.out.println(scavenging.scavengeJ());
+                        }
+                    }
+                    else if (input == 3) {
+                        for (int i = 0; i < count; i++) {
+                            System.out.println(scavenging.scavengeRoA());
+                        }
+                    }
+                    else {
+                        System.out.println("ERROR: Invalid Location!");
+                    }
             }
         }
     }
