@@ -27,4 +27,20 @@ public class XPGenerator {
         }
         return "Level " + lvl + "\n(" + has + " / " + needed + ")";
     }
+
+    public String generateJ(int xp) {
+        int lvl = level;
+        int has = xpHas;
+        int needed = xpNeeded + 100;
+        while (xp != 0) {
+            xp--;
+            has++;
+            if (has == needed) {
+                lvl++;
+                has = 0;
+                needed += 25;
+            }
+        }
+        return "Level " + lvl + "\n(" + has + " / " + needed + ")";
+    }
 }

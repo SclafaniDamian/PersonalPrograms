@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class MemoryMergeDriver {
     private Scanner scanner;
-    private String[] options = new String[9];
+    private String[] options = new String[10];
 
     public MemoryMergeDriver() {
         scanner = new Scanner(System.in);
@@ -17,6 +17,7 @@ public class MemoryMergeDriver {
         options[6] = "Gain a TOM Character (UNFINISHED)";
         options[7] = "Pick a Card";
         options[8] = "Scavenge for a Domains Item (UNFINSIHED)";
+        options[9] = "Give A Journey Character XP";
     }
 
     public void runDriver() {
@@ -140,6 +141,29 @@ public class MemoryMergeDriver {
                     else {
                         System.out.println("ERROR: Invalid Location!");
                     }
+                case 9:
+                    System.out.println("Enter the level of the character:");
+                    int levelJ = scanner.nextInt();
+                    scanner.nextLine();
+                    System.out.println("Enter how much XP the character currently has:");
+                    int xpHasJ = scanner.nextInt();
+                    scanner.nextLine();
+                    XPGenerator generatorJ = new XPGenerator(levelJ, xpHasJ);
+                    System.out.println("Enter the amount of XP being gained: \n(Enter 0 to stop)");
+                    int xpJ = 0;
+                    boolean stopJ = false;
+                    while (!stopJ) {
+                        int gain = scanner.nextInt();
+                        if (gain == 0) {
+                            stopJ = true;
+                        }
+                        xpJ += gain;
+                    }
+                    scanner.nextLine();
+                    System.out.println();
+                    System.out.println(generatorJ.generateJ(xpJ));
+                    System.out.println();
+                    break;
             }
         }
     }
