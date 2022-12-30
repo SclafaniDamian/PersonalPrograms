@@ -9,7 +9,7 @@ public class MemoryMergeDriver {
     public MemoryMergeDriver() {
         scanner = new Scanner(System.in);
         options[0] = "Quit";
-        options[1] = "Select Random Character + Gamemode for Memory Merge (UNFINISHED)";
+        options[1] = "Select Random Character + Gamemode for Memory Merge";
         options[2] = "Select Random Explore";
         options[3] = "Use XP Generator";
         options[4] = "Gain a TBW Character (UNFINISHED)";
@@ -105,9 +105,11 @@ public class MemoryMergeDriver {
                     System.out.println("How many cards are being drawn?");
                     int draw = scanner.nextInt();
                     scanner.nextLine();
+                    System.out.println();
                     for (int i = 0; i < draw; i++) {
                         System.out.println(deck.drawCard());
                     }
+                    System.out.println();
                     break;
                 case 8:
                     DomainsScavenge scavenging = new DomainsScavenge();

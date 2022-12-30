@@ -697,14 +697,18 @@ public class MemoryMergePicks {
                 chosenGamemode.add(gamemodes.get(62));
                 chosenGamemode.add(gamemodes.get(69));
                 chosenGamemode.add(gamemodes.get(70));
+                break;
             case 28:
                 chosenGamemode.add(gamemodes.get(28));
                 chosenGamemode.add(gamemodes.get(6));
                 chosenGamemode.add(gamemodes.get(4));
+                break;
             case 29:
                 chosenGamemode.add(gamemodes.get(29));
+                break;
             case 30:
                 chosenGamemode.add(gamemodes.get(30));
+                break;
             case 31:
                 chosenGamemode.add(gamemodes.get(1));
                 chosenGamemode.add(gamemodes.get(2));
@@ -1444,6 +1448,7 @@ public class MemoryMergePicks {
                 chosenGamemode.add(gamemodes.get(17));
                 chosenGamemode.add(gamemodes.get(26));
                 chosenGamemode.add(gamemodes.get(31));
+                break;
             case 51:
                 chosenGamemode.add(gamemodes.get(1));
                 chosenGamemode.add(gamemodes.get(2));
@@ -1544,9 +1549,160 @@ public class MemoryMergePicks {
                 chosenGamemode.add(gamemodes.get(30));
                 chosenGamemode.add(gamemodes.get(30));
                 chosenGamemode.add(gamemodes.get(2));
-                // TODO
-
-            // TODO - chosenGamemode.add(gamemodes.get());
+                chosenGamemode.add(gamemodes.get(3));
+                chosenGamemode.add(gamemodes.get(5));
+                chosenGamemode.add(gamemodes.get(18));
+                chosenGamemode.add(gamemodes.get(19));
+                chosenGamemode.add(gamemodes.get(20));
+                chosenGamemode.add(gamemodes.get(21));
+                chosenGamemode.add(gamemodes.get(22));
+                chosenGamemode.add(gamemodes.get(37));
+                chosenGamemode.add(gamemodes.get(32));
+                chosenGamemode.add(gamemodes.get(33));
+                chosenGamemode.add(gamemodes.get(39));
+                chosenGamemode.add(gamemodes.get(40));
+                chosenGamemode.add(gamemodes.get(44));
+                chosenGamemode.add(gamemodes.get(45));
+                chosenGamemode.add(gamemodes.get(56));
+                break;
+            case 55:
+                chosenGamemode.add(gamemodes.get(1));
+                chosenGamemode.add(gamemodes.get(2));
+                chosenGamemode.add(gamemodes.get(3));
+                chosenGamemode.add(gamemodes.get(4));
+                chosenGamemode.add(gamemodes.get(5));
+                chosenGamemode.add(gamemodes.get(6));
+                chosenGamemode.add(gamemodes.get(7));
+                chosenGamemode.add(gamemodes.get(10));
+                chosenGamemode.add(gamemodes.get(14));
+                chosenGamemode.add(gamemodes.get(15));
+                chosenGamemode.add(gamemodes.get(17));
+                chosenGamemode.add(gamemodes.get(18));
+                chosenGamemode.add(gamemodes.get(19));
+                chosenGamemode.add(gamemodes.get(20));
+                chosenGamemode.add(gamemodes.get(21));
+                chosenGamemode.add(gamemodes.get(22));
+                chosenGamemode.add(gamemodes.get(23));
+                chosenGamemode.add(gamemodes.get(25));
+                chosenGamemode.add(gamemodes.get(26));
+                chosenGamemode.add(gamemodes.get(27));
+                chosenGamemode.add(gamemodes.get(31));
+                chosenGamemode.add(gamemodes.get(32));
+                chosenGamemode.add(gamemodes.get(33));
+                chosenGamemode.add(gamemodes.get(34));
+                chosenGamemode.add(gamemodes.get(37));
+                chosenGamemode.add(gamemodes.get(38));
+                chosenGamemode.add(gamemodes.get(39));
+                chosenGamemode.add(gamemodes.get(40));
+                chosenGamemode.add(gamemodes.get(44));
+                chosenGamemode.add(gamemodes.get(45));
+                chosenGamemode.add(gamemodes.get(46));
+                chosenGamemode.add(gamemodes.get(48));
+                chosenGamemode.add(gamemodes.get(54));
+                chosenGamemode.add(gamemodes.get(55));
+                chosenGamemode.add(gamemodes.get(56));
+                chosenGamemode.add(gamemodes.get(57));
+                chosenGamemode.add(gamemodes.get(61));
+                chosenGamemode.add(gamemodes.get(62));
+                chosenGamemode.add(gamemodes.get(67));
+                chosenGamemode.add(gamemodes.get(68));
+                chosenGamemode.add(gamemodes.get(69));
+                chosenGamemode.add(gamemodes.get(70));
+                break;
+            case 56:
+                // chosenGamemode.add(gamemodes.get());
+                result += "UNFINISHED!";
+                break;
+            case 57:
+                // chosenGamemode.add(gamemodes.get());
+                result += "UNFINISHED!";
+                break;
+            case 58:
+            case 59:
+                chosenGamemode.add(gamemodes.get(1));
+                chosenGamemode.add(gamemodes.get(2));
+                chosenGamemode.add(gamemodes.get(3));
+                chosenGamemode.add(gamemodes.get(4));
+                chosenGamemode.add(gamemodes.get(5));
+                chosenGamemode.add(gamemodes.get(10));
+                chosenGamemode.add(gamemodes.get(15));
+                chosenGamemode.add(gamemodes.get(17));
+                chosenGamemode.add(gamemodes.get(19));
+                chosenGamemode.add(gamemodes.get(20));
+                chosenGamemode.add(gamemodes.get(21));
+                chosenGamemode.add(gamemodes.get(22));
+                chosenGamemode.add(gamemodes.get(23));
+                chosenGamemode.add(gamemodes.get(25));
+                chosenGamemode.add(gamemodes.get(31));
+                chosenGamemode.add(gamemodes.get(32));
+                chosenGamemode.add(gamemodes.get(33));
+                chosenGamemode.add(gamemodes.get(34));
+                chosenGamemode.add(gamemodes.get(38));
+                chosenGamemode.add(gamemodes.get(39));
+                chosenGamemode.add(gamemodes.get(40));
+                chosenGamemode.add(gamemodes.get(41));
+                chosenGamemode.add(gamemodes.get(43));
+                chosenGamemode.add(gamemodes.get(44));
+                chosenGamemode.add(gamemodes.get(45));
+                chosenGamemode.add(gamemodes.get(46));
+                chosenGamemode.add(gamemodes.get(54));
+                chosenGamemode.add(gamemodes.get(55));
+                chosenGamemode.add(gamemodes.get(56));
+                chosenGamemode.add(gamemodes.get(57));
+                chosenGamemode.add(gamemodes.get(61));
+                chosenGamemode.add(gamemodes.get(62));
+                chosenGamemode.add(gamemodes.get(67));
+                chosenGamemode.add(gamemodes.get(68));
+                chosenGamemode.add(gamemodes.get(69));
+                chosenGamemode.add(gamemodes.get(70));
+                break;
+            case 60:
+                chosenGamemode.add(gamemodes.get(15));
+                chosenGamemode.add(gamemodes.get(19));
+                chosenGamemode.add(gamemodes.get(21));
+                chosenGamemode.add(gamemodes.get(25));
+                chosenGamemode.add(gamemodes.get(34));
+                chosenGamemode.add(gamemodes.get(57));
+                chosenGamemode.add(gamemodes.get(58));
+                chosenGamemode.add(gamemodes.get(59));
+                chosenGamemode.add(gamemodes.get(60));
+                chosenGamemode.add(gamemodes.get(61));
+                chosenGamemode.add(gamemodes.get(62));
+                break;
+            case 61:
+                chosenGamemode.add(gamemodes.get(63));
+                chosenGamemode.add(gamemodes.get(64));
+                chosenGamemode.add(gamemodes.get(65));
+                break;
+            case 62:
+                chosenGamemode.add(gamemodes.get(63));
+                chosenGamemode.add(gamemodes.get(64));
+                chosenGamemode.add(gamemodes.get(65));
+                break;
+            case 63:
+                chosenGamemode.add(gamemodes.get(26));
+                break;
+            case 64:
+                chosenGamemode.add(gamemodes.get(26));
+                break;
+            case 65:
+                chosenGamemode.add(gamemodes.get(1));
+                chosenGamemode.add(gamemodes.get(19));
+                chosenGamemode.add(gamemodes.get(21));
+                chosenGamemode.add(gamemodes.get(22));
+                chosenGamemode.add(gamemodes.get(26));
+                chosenGamemode.add(gamemodes.get(31));
+                chosenGamemode.add(gamemodes.get(34));
+                chosenGamemode.add(gamemodes.get(55));
+                chosenGamemode.add(gamemodes.get(2));
+                chosenGamemode.add(gamemodes.get(3));
+                chosenGamemode.add(gamemodes.get(10));
+                chosenGamemode.add(gamemodes.get(25));
+                chosenGamemode.add(gamemodes.get(32));
+                chosenGamemode.add(gamemodes.get(39));
+                chosenGamemode.add(gamemodes.get(41));
+                chosenGamemode.add(gamemodes.get(56));
+                break;
         }
         rand = (int)(Math.random()*chosenGamemode.size());
         result += chosenGamemode.get(rand);
