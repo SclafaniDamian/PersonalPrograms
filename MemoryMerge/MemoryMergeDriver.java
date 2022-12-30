@@ -16,7 +16,7 @@ public class MemoryMergeDriver {
         options[5] = "Gain a TBW Equipment";
         options[6] = "Gain a TOM Character (UNFINISHED)";
         options[7] = "Pick a Card";
-        options[8] = "Scavenge for a Domains Item (UNFINSIHED)";
+        options[8] = "Scavenge for a Domains Item";
         options[9] = "Give A Journey Character XP";
     }
 
@@ -114,12 +114,13 @@ public class MemoryMergeDriver {
                 case 8:
                     DomainsScavenge scavenging = new DomainsScavenge();
                     System.out.println("Where are you scavenging from?");
-                    scavenging.printList();
+                    System.out.println("0. No Specific Location \n1. Kingdoms Arise! \n2. Journey \n3. River of Andigroth");
                     int input = scanner.nextInt();
                     scanner.nextLine();
                     System.out.println("How many items are you scavenging from here?");
                     int count = scanner.nextInt();
                     scanner.nextLine();
+                    System.out.println();
                     if (input == 0) {
                         for (int i = 0; i < count; i++) {
                             System.out.println(scavenging.scavengeAny());
@@ -143,6 +144,8 @@ public class MemoryMergeDriver {
                     else {
                         System.out.println("ERROR: Invalid Location!");
                     }
+                    System.out.println();
+                    break;
                 case 9:
                     System.out.println("Enter the level of the character:");
                     int levelJ = scanner.nextInt();
