@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class MemoryMergeDriver {
     private Scanner scanner;
-    private String[] options = new String[11];
+    private String[] options = new String[12];
 
     public MemoryMergeDriver() {
         scanner = new Scanner(System.in);
@@ -169,6 +169,22 @@ public class MemoryMergeDriver {
                     scanner.nextLine();
                     System.out.println();
                     System.out.println(generatorJ.generateJ(xpJ));
+                    System.out.println();
+                    break;
+                case 10:
+                    System.out.println("Which character is generating a spell?");
+                    DomainsSpellGenerator DomainsGen = new DomainsSpellGenerator();
+                    System.out.println(DomainsGen.listCharacters());
+                    break;
+                case 11:
+                    System.out.println("How many AI are playing?");
+                    int amount = scanner.nextInt();
+                    scanner.nextLine();
+                    DomainsSpellGenerator AiGen = new DomainsSpellGenerator();
+                    System.out.println();
+                    for (int i = 0; i < amount; i++) {
+                        System.out.println(AiGen.randomlySelectAI());
+                    }
                     System.out.println();
                     break;
             }
