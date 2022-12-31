@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class MemoryMergeDriver {
     private Scanner scanner;
-    private String[] options = new String[10];
+    private String[] options = new String[11];
 
     public MemoryMergeDriver() {
         scanner = new Scanner(System.in);
@@ -18,6 +18,8 @@ public class MemoryMergeDriver {
         options[7] = "Pick a Card";
         options[8] = "Scavenge for a Domains Item";
         options[9] = "Give A Journey Character XP";
+        options[10] = "Randomly pick a Domains Spell (UNFINISHED)";
+        options[11] = "Randomly select a Domains AI (UNFINISHED)";
     }
 
     public void runDriver() {
