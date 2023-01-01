@@ -18,8 +18,8 @@ public class MemoryMergeDriver {
         options[7] = "Pick a Card";
         options[8] = "Scavenge for a Domains Item";
         options[9] = "Give A Journey Character XP";
-        options[10] = "Randomly pick a Domains Spell (UNFINISHED)";
-        options[11] = "Randomly select a Domains AI (UNFINISHED)";
+        options[10] = "Randomly pick a Domains Spell";
+        options[11] = "Randomly select a Domains AI";
     }
 
     public void runDriver() {
@@ -175,6 +175,10 @@ public class MemoryMergeDriver {
                     System.out.println("Which character is generating a spell?");
                     DomainsSpellGenerator DomainsGen = new DomainsSpellGenerator();
                     System.out.println(DomainsGen.listCharacters());
+                    int dInput = scanner.nextInt();
+                    scanner.nextLine();
+                    System.out.println(DomainsGen.generateSpell(dInput));
+                    System.out.println();
                     break;
                 case 11:
                     System.out.println("How many AI are playing?");
