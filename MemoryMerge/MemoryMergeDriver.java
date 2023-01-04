@@ -12,7 +12,7 @@ public class MemoryMergeDriver {
         options[1] = "Select Random Character + Gamemode for Memory Merge";
         options[2] = "Select Random Explore";
         options[3] = "Use XP Generator";
-        options[4] = "Gain a TBW Character (UNFINISHED)";
+        options[4] = "Gain a TBW Character";
         options[5] = "Gain a TBW Equipment";
         options[6] = "Gain a TOM Character (UNFINISHED)";
         options[7] = "Pick a Card";
