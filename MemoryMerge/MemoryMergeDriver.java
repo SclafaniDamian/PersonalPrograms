@@ -14,7 +14,7 @@ public class MemoryMergeDriver {
         options[3] = "Use XP Generator";
         options[4] = "Gain a TBW Character";
         options[5] = "Gain a TBW Equipment";
-        options[6] = "Gain a TOM Character (UNFINISHED)";
+        options[6] = "Gain a TOM Character";
         options[7] = "Pick a Card";
         options[8] = "Scavenge for a Domains Item";
         options[9] = "Give A Journey Character XP";
