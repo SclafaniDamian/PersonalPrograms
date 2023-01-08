@@ -505,7 +505,7 @@ public class DomainsSpellGenerator {
                 break;
             case 25:     // Spawn of Aza
                 rand = (int)(Math.random()*100) + 1;
-                if (rand <= 0) {
+                if (rand <= 1) {
                     result += "Critical Hit!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
@@ -513,11 +513,11 @@ public class DomainsSpellGenerator {
                     result += "Extra Essence!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
-                if (rand <= 0) {
+                if (rand <= 2) {
                     result += "Knowledge!";
                 }
                 rand = (int)(Math.random()*100) + 1;
-                if (rand <= 5) {
+                if (rand <= 7) {
                     result += "Skill!\n";
                 }
                 rand = (int)(Math.random()*7) + 1;
@@ -553,11 +553,11 @@ public class DomainsSpellGenerator {
                     result += "Extra Essence!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
-                if (rand <= 5) {
+                if (rand <= 7) {
                     result += "Knowledge!";
                 }
                 rand = (int)(Math.random()*100) + 1;
-                if (rand <= 0) {
+                if (rand <= 1) {
                     result += "Skill!\n";
                 }
                 rand = (int)(Math.random()*2);
@@ -570,15 +570,15 @@ public class DomainsSpellGenerator {
                 break;
             case 28:     // Spawn of Sin'json
                 rand = (int)(Math.random()*100) + 1;
-                if (rand <= 0) {
+                if (rand <= 1) {
                     result += "Critical Hit!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
-                if (rand <= 0) {
+                if (rand <= 1) {
                     result += "Extra Essence!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
-                if (rand <= 0) {
+                if (rand <= 1) {
                     result += "Knowledge!";
                 }
                 rand = (int)(Math.random()*100) + 1;
@@ -590,19 +590,19 @@ public class DomainsSpellGenerator {
                 break;
             case 29:     // Spawn of Za'jara
                 rand = (int)(Math.random()*100) + 1;
-                if (rand <= 0) {
+                if (rand <= 1) {
                     result += "Critical Hit!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
-                if (rand <= 5) {
+                if (rand <= 6) {
                     result += "Extra Essence!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
-                if (rand <= 0) {
+                if (rand <= 1) {
                     result += "Knowledge!";
                 }
                 rand = (int)(Math.random()*100) + 1;
-                if (rand <= 0) {
+                if (rand <= 2) {
                     result += "Skill!\n";
                 }
                 rand = (int)(Math.random()*7) + 1;
@@ -650,7 +650,7 @@ public class DomainsSpellGenerator {
                 break;
             case 32:     // The Conjurer
                 rand = (int)(Math.random()*100) + 1;
-                if (rand <= 1) {
+                if (rand <= 2) {
                     result += "Critical Hit!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
@@ -808,7 +808,7 @@ public class DomainsSpellGenerator {
                     result += "Critical Hit!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
-                if (rand <= 79) {
+                if (rand <= 80) {
                     result += "Extra Essence!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
@@ -818,14 +818,14 @@ public class DomainsSpellGenerator {
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 0) {
                     result += "Knowledge!";
-                    rand = (int)(Math.random()*30) + 1;
+                    rand = (int)(Math.random()*34) + 1;
                     result += "Spell #" + rand + "\n";
                     result += "OR\n";
                 }
-                rand = (int)(Math.random()*30) + 1;
+                rand = (int)(Math.random()*34) + 1;
                 result += "Spell #" + rand + "\n";
                 result += "OR\n";
-                rand = (int)(Math.random()*30) + 1;
+                rand = (int)(Math.random()*34) + 1;
                 result += "Spell #" + rand;
                 break;
             case 39:     // Jason
