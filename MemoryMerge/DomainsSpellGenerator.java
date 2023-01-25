@@ -66,7 +66,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 93) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 97) {
@@ -86,7 +86,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 94) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 96) {
@@ -104,7 +104,7 @@ public class DomainsSpellGenerator {
                 if (rand <= 99) {
                     result += "Extra Essence!\n";
                 }
-                result += "Knowledge!";
+                result += "Knowledge!\n";
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 92) {
                     result += "Skill!\n";
@@ -128,7 +128,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 91) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 93) {
@@ -148,7 +148,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 94) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 98) {
@@ -168,7 +168,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 12) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 17) {
@@ -188,7 +188,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 5) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 7) {
@@ -207,7 +207,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 21) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 22) {
@@ -232,7 +232,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 10) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 4) {
@@ -252,7 +252,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 9) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 15) {
@@ -272,7 +272,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 17) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 25) {
@@ -292,7 +292,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 18) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 19) {
@@ -312,7 +312,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 17) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 14) {
@@ -332,7 +332,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 26) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 20) {
@@ -352,7 +352,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 8) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 9) {
@@ -372,7 +372,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 3) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 10) {
@@ -392,7 +392,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 2) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 2) {
@@ -412,7 +412,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 6) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 10) {
@@ -432,7 +432,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 2) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 5) {
@@ -453,7 +453,7 @@ public class DomainsSpellGenerator {
 
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 7) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 13) {
@@ -474,7 +474,7 @@ public class DomainsSpellGenerator {
 
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 2) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 1) {
@@ -494,7 +494,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 4) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 6) {
@@ -514,7 +514,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 2) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 7) {
@@ -534,7 +534,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 2) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 1) {
@@ -554,7 +554,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 7) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 1) {
@@ -579,7 +579,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 1) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 0) {
@@ -599,7 +599,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 1) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 2) {
@@ -619,7 +619,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 2) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 4) {
@@ -639,7 +639,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 1) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 3) {
@@ -659,7 +659,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 6) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 1) {
@@ -684,7 +684,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 2) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 2) {
@@ -704,7 +704,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 5) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 9) {
@@ -724,7 +724,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 21) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 17) {
@@ -752,7 +752,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 5) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                     rand = (int)(Math.random()*11) + 1;
                     result += "Spell #" + rand + "\n";
                     result += "OR\n";
@@ -787,7 +787,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 3) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                     rand = (int)(Math.random()*16) + 1;
                     result += "Spell #" + rand + "\n";
                     result += "OR\n";
@@ -816,8 +816,8 @@ public class DomainsSpellGenerator {
                     result += "Skill!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
-                if (rand <= 0) {
-                    result += "Knowledge!";
+                if (rand <= 1) {
+                    result += "Knowledge!\n";
                     rand = (int)(Math.random()*34) + 1;
                     result += "Spell #" + rand + "\n";
                     result += "OR\n";
@@ -847,7 +847,7 @@ public class DomainsSpellGenerator {
                 }
                 rand = (int)(Math.random()*100) + 1;
                 if (rand <= 10) {
-                    result += "Knowledge!";
+                    result += "Knowledge!\n";
                     rand = (int)(Math.random()*25) + 1;
                     result += "Spell #" + rand + "\n";
                     result += "OR\n";
