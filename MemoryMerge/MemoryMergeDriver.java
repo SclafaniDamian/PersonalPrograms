@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class MemoryMergeDriver {
     private Scanner scanner;
-    private String[] options = new String[12];
+    private String[] options = new String[13];
 
     public MemoryMergeDriver() {
         scanner = new Scanner(System.in);
@@ -20,6 +20,7 @@ public class MemoryMergeDriver {
         options[9] = "Give A Journey Character XP";
         options[10] = "Randomly pick a Domains Spell";
         options[11] = "Randomly select a Domains AI";
+        options[12] = "Rock, Paper, Scissors";
     }
 
     public void runDriver() {
@@ -188,6 +189,27 @@ public class MemoryMergeDriver {
                     System.out.println();
                     for (int i = 0; i < amount; i++) {
                         System.out.println(AiGen.randomlySelectAI());
+                    }
+                    System.out.println();
+                    break;
+                case 12:
+                    System.out.println("Is player 1 an Player(1) or an AI(2)?");
+                    int playerInput = scanner.nextInt();
+                    scanner.nextLine();
+                    RockPaperScissors rps = new RockPaperScissors();
+                    switch (playerInput) {
+                        case 1:
+                            System.out.println("Rock, Paper, or Scissors?");
+                            String playRPS = scanner.nextLine();
+                            System.out.println(rps.challenge(playRPS));
+                            break;
+                        case 2:
+                            playRPS = rps.getAIAnswer();
+                            System.out.println("AI 1 Response: " + playRPS);
+                            System.out.println(rps.challenge(playRPS));
+                            break;
+                        default:
+                            System.out.println("Invalid Response!");
                     }
                     System.out.println();
                     break;
