@@ -1632,6 +1632,7 @@ public class MemoryMergePicks {
             case 66:
                 chosenGamemode.add(gamemodes.get(14));
                 chosenGamemode.add(gamemodes.get(14) + " w/ BOSS BATTLE");
+                chosenGamemode.add(gamemodes.get(14) + " w/ BOSS BRAWL");
                 chosenGamemode.add(gamemodes.get(69));
                 chosenGamemode.add(gamemodes.get(70));
                 break;
@@ -1639,6 +1640,7 @@ public class MemoryMergePicks {
                 chosenGamemode.add(gamemodes.get(14));
                 chosenGamemode.add(gamemodes.get(69));
                 chosenGamemode.add(gamemodes.get(69) + " w/ BOSS BATTLE");
+                chosenGamemode.add(gamemodes.get(69) + " w/ BOSS BRAWL");
                 chosenGamemode.add(gamemodes.get(70));
                 break;
             case 68:
@@ -1646,9 +1648,11 @@ public class MemoryMergePicks {
                 chosenGamemode.add(gamemodes.get(69));
                 chosenGamemode.add(gamemodes.get(70));
                 chosenGamemode.add(gamemodes.get(70) + " w/ BOSS BATTLE");
+                chosenGamemode.add(gamemodes.get(70) + " w/ BOSS BRAWL");
                 break;
             case 69:
                 chosenGamemode.add(gamemodes.get(18));
+                chosenGamemode.add(gamemodes.get(48));
                 break;
         }
         rand = (int)(Math.random()*chosenGamemode.size());
