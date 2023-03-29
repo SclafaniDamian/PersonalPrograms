@@ -178,6 +178,7 @@ public class MemoryMergeDriver {
                     System.out.println(DomainsGen.listCharacters());
                     int dInput = scanner.nextInt();
                     scanner.nextLine();
+                    System.out.println();
                     System.out.println(DomainsGen.generateSpell(dInput));
                     System.out.println();
                     break;
