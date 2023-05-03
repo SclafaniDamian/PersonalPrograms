@@ -816,7 +816,7 @@ public class DomainsSpellGenerator {
                     result += "Skill!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
-                if (rand <= 1) {
+                if (rand <= 2) {
                     result += "Knowledge!\n";
                     rand = (int)(Math.random()*34) + 1;
                     result += "Spell #" + rand + "\n";
@@ -852,10 +852,10 @@ public class DomainsSpellGenerator {
                     result += "Spell #" + rand + "\n";
                     result += "OR\n";
                 }
-                rand = (int)(Math.random()*25) + 1;
+                rand = (int)(Math.random()*29) + 1;
                 result += "Spell #" + rand + "\n";
                 result += "OR\n";
-                rand = (int)(Math.random()*25) + 1;
+                rand = (int)(Math.random()*29) + 1;
                 result += "Spell #" + rand;
                 break;
         }
