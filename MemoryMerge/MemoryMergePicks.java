@@ -12,9 +12,10 @@ public class MemoryMergePicks {
         createArrays();
     }
 
-    public String gameSelect() {
+    public String gameSelect(int rand) {
         String result = "Characters : Gamemode \n";
-        int rand = (int)(Math.random()*65) + 1;
+        if (rand == 0)
+            rand = (int)(Math.random()*65) + 1;
         result += characters.get(rand);
         result += " : ";
         switch (rand) {
@@ -1654,6 +1655,21 @@ public class MemoryMergePicks {
                 chosenGamemode.add(gamemodes.get(18));
                 chosenGamemode.add(gamemodes.get(48));
                 break;
+            case 70:
+                chosenGamemode.add(gamemodes.get(1));
+                chosenGamemode.add(gamemodes.get(15));
+                chosenGamemode.add(gamemodes.get(19));
+                chosenGamemode.add(gamemodes.get(21));
+                chosenGamemode.add(gamemodes.get(25));
+                chosenGamemode.add(gamemodes.get(26));
+                chosenGamemode.add(gamemodes.get(34));
+                chosenGamemode.add(gamemodes.get(61));
+                chosenGamemode.add(gamemodes.get(62));
+                break;
+            case 71:
+                chosenGamemode.add(gamemodes.get(14));
+                chosenGamemode.add(gamemodes.get(69));
+                chosenGamemode.add(gamemodes.get(70));
         }
         rand = (int)(Math.random()*chosenGamemode.size());
         result += chosenGamemode.get(rand);
@@ -1812,6 +1828,8 @@ public class MemoryMergePicks {
         characters.add("Quest For Glory (67)");
         characters.add("War of Time (68)");
         characters.add("Paradox Warfare (69)");
+        characters.add("Apocalypse Continued (70)");
+        characters.add("Interdimensional Fighting (71)");
         // Explore
         // explore.add("BUFFER");   --      Uncomment if needed
         explore.add("Kingdoms Arise! (1)");

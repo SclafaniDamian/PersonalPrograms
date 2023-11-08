@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class MemoryMergeDriver {
     private Scanner scanner;
-    private String[] options = new String[13];
+    private String[] options = new String[14];
 
     public MemoryMergeDriver() {
         scanner = new Scanner(System.in);
@@ -21,7 +21,8 @@ public class MemoryMergeDriver {
         options[10] = "Randomly pick a Domains Spell";
         options[11] = "Randomly select a Domains AI";
         options[12] = "Rock, Paper, Scissors";
-    }
+        options[13] = "Force Character Select";
+     }
 
     public void runDriver() {
         System.out.print("Welcome to Memory Merge!");
@@ -38,7 +39,7 @@ public class MemoryMergeDriver {
                 case 1:
                     MemoryMergePicks playing = new MemoryMergePicks();
                     System.out.println();
-                    System.out.println(playing.gameSelect());
+                    System.out.println(playing.gameSelect(0));
                     System.out.println();
                     break;
                 case 2:
@@ -212,6 +213,15 @@ public class MemoryMergeDriver {
                         default:
                             System.out.println("Invalid Response!");
                     }
+                    System.out.println();
+                    break;
+                case 13:
+                    MemoryMergePicks forceplaying = new MemoryMergePicks();    
+                    System.out.println("Enter the character set number.");
+                    int pInput = scanner.nextInt();
+                    scanner.nextLine();
+                    System.out.println();
+                    System.out.println(forceplaying.gameSelect(pInput));
                     System.out.println();
                     break;
             }
