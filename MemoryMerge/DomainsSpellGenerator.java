@@ -808,7 +808,7 @@ public class DomainsSpellGenerator {
                     result += "Critical Hit!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
-                if (rand <= 80) {
+                if (rand <= 82) {
                     result += "Extra Essence!\n";
                 }
                 rand = (int)(Math.random()*100) + 1;
