@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class MemoryMergeDriver {
     private Scanner scanner;
-    private String[] options = new String[14];
+    private String[] options = new String[15];
 
     public MemoryMergeDriver() {
         scanner = new Scanner(System.in);
@@ -22,6 +22,7 @@ public class MemoryMergeDriver {
         options[11] = "Randomly select a Domains AI";
         options[12] = "Rock, Paper, Scissors";
         options[13] = "Force Character Select";
+        options[14] = "Personal Personas Scavenge";
      }
 
     public void runDriver() {
@@ -224,6 +225,27 @@ public class MemoryMergeDriver {
                     System.out.println(forceplaying.gameSelect(pInput));
                     System.out.println();
                     break;
+                case 14:
+                    PPScavenge ppscavenge = new PPScavenge();
+                    System.out.println("What are you scavenging for?");
+                    System.out.println("0. Goods \n1. Spellsheets");
+                    int nextinput = scanner.nextInt();
+                    scanner.nextLine();
+                    System.out.println("How many of these items are you scavenging?");
+                    int numberinput = scanner.nextInt();
+                    scanner.nextLine();
+                    System.out.println();
+                    if (nextinput == 0) {
+                        for (int i = 0; i < numberinput; i++)
+                            System.out.println(ppscavenge.scavengeGoods());
+                    }
+                    else if (nextinput == 1) {
+                        for (int i = 0; i < numberinput; i++)
+                            System.out.println(ppscavenge.scavengeSpellsheets());
+                    }
+                    else {
+                        System.out.println("ERROR: Invalid value entered!");
+                    }
             }
         }
     }
