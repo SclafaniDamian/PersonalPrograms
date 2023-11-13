@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class MemoryMergeDriver {
     private Scanner scanner;
-    private String[] options = new String[15];
+    private String[] options = new String[16];
 
     public MemoryMergeDriver() {
         scanner = new Scanner(System.in);
@@ -23,6 +23,7 @@ public class MemoryMergeDriver {
         options[12] = "Rock, Paper, Scissors";
         options[13] = "Force Character Select";
         options[14] = "Personal Personas Scavenge";
+        options[15] = "The Trash Game Demo";
      }
 
     public void runDriver() {
@@ -246,6 +247,113 @@ public class MemoryMergeDriver {
                     else {
                         System.out.println("ERROR: Invalid value entered!");
                     }
+                    break;
+                case 15:
+                    TheGarbageGameDemo garbagedemo = new TheGarbageGameDemo();
+                    boolean continueplaying = true;
+                    int whatplayerisit = 0;
+                    int cardslot = 0;
+                    int playerresponse = 0;
+                    boolean continueturn = true;
+                    while (continueplaying) {
+                        System.out.println("NEW TURN!");
+                        whatplayerisit = 0;
+                        cardslot = 0;
+                        playerresponse = 0;
+                        continueturn = true;
+                        System.out.println("Who's turn is it? (insert player number 1-4)");
+                        whatplayerisit = scanner.nextInt();
+                        scanner.nextLine();
+                        //while (whatplayerisit < 1 && whatplayerisit > 4) {
+                        //    System.out.println("Who's turn is it? (insert player number 1-4)");
+                        //    whatplayerisit = scanner.nextInt();
+                        //    scanner.nextLine();
+                        //}
+                        while (continueturn) {
+                            System.out.println("What does player " + whatplayerisit + " want to do? (type the number)");
+                            System.out.println("0. Pass\n1. Draw\n2. Show your Hand\n3. Use card\n4. Show garbage\n5. Draw garbage\n6. Steal Trash\n7. Remove all trash\n8. Remove set trash");
+                            playerresponse = scanner.nextInt();
+                            scanner.nextLine();
+                            if (playerresponse == 1) {
+                                System.out.println("How many cards is Player " + whatplayerisit + " drawing?");
+                                playerresponse = scanner.nextInt();
+                                scanner.nextLine();
+                                for (int i = 0; i < playerresponse; i++)
+                                    garbagedemo.drawCard(whatplayerisit);
+                            }
+                            else if (playerresponse == 2) {
+                                System.out.println(garbagedemo.showHand(whatplayerisit));
+                            }
+                            else if (playerresponse == 3) {
+                                System.out.println("Here's what Player " + whatplayerisit + "'s hand looks like:");
+                                System.out.println(garbagedemo.showHand(whatplayerisit));
+                                System.out.println();
+                                System.out.println("What card are you using? (type the slot number)");
+                                playerresponse = scanner.nextInt();
+                                scanner.nextLine();
+                                if (playerresponse >= 0 && playerresponse < garbagedemo.getSize(whatplayerisit)) {
+                                    garbagedemo.useCard(whatplayerisit, playerresponse);
+                                }
+                                else {
+                                    System.out.println("ERROR: Invalid card slot entered!");
+                                }
+                            }
+                            else if (playerresponse == 4) {
+                                System.out.println(garbagedemo.showGarbage(whatplayerisit));
+                            }
+                            else if (playerresponse == 5) {
+                                System.out.println("How much garbage is Player " + whatplayerisit + " drawing?");
+                                playerresponse = scanner.nextInt();
+                                scanner.nextLine();
+                                for (int i = 0; i < playerresponse; i++)
+                                    garbagedemo.gainTrash(whatplayerisit);
+                            }
+                            else if (playerresponse == 6) {
+                                System.out.println("Which other player are you stealing trash from?");
+                                playerresponse = scanner.nextInt();
+                                scanner.nextLine();
+                                System.out.println("How many cards are you stealing from them?");
+                                cardslot = scanner.nextInt();
+                                scanner.nextLine();
+                                for (int i = 0; i < cardslot; i++)
+                                    garbagedemo.stealTrash(whatplayerisit, playerresponse);
+                            }
+                            else if (playerresponse == 7) {
+                                System.out.println("What type of trash are you removing from yourself?\n0. Recyclable\n1. Edible");
+                                playerresponse = scanner.nextInt();
+                                scanner.nextLine();
+                                garbagedemo.useAllTrash(whatplayerisit, playerresponse);
+                            }
+                            else if (playerresponse == 8) {
+                                System.out.println("What kind of trash are you removing?\n0. CHEESE!\n1. anything else");
+                                playerresponse = scanner.nextInt();
+                                scanner.nextLine();
+                                if (playerresponse == 0) {
+                                    garbagedemo.useCheese(whatplayerisit);
+                                }
+                                else if (playerresponse == 1) {
+                                    System.out.println("How much trash are you losing?");
+                                    playerresponse = scanner.nextInt();
+                                    scanner.nextLine();
+                                    for (int i = 0; i < playerresponse; i++)
+                                        garbagedemo.loseTrash(whatplayerisit);
+                                }
+                            }
+                            else {
+                                System.out.println("you passed your turn...");
+                            }
+                            System.out.println();
+                            System.out.println("Do you want to continue with your turn? (T/F)");
+                            continueturn = scanner.nextBoolean();
+                            scanner.nextLine();
+                            System.out.println();
+                        }
+                        System.out.println("Continue playing? (T/F)");
+                        continueplaying = scanner.nextBoolean();
+                        scanner.nextLine();
+                        System.out.println();
+                    }
+                    break;
             }
         }
     }
