@@ -282,6 +282,10 @@ public class MemoryMergeDriver {
                                 System.out.println("How many cards is Player " + whatplayerisit + " drawing?");
                                 playerresponse = scanner.nextInt();
                                 scanner.nextLine();
+                                if (playerresponse > garbagedemo.getTotalDeck()) {
+                                    playerresponse = garbagedemo.getTotalDeck();
+                                    System.out.println("The deck has only " + garbagedemo.getTotalDeck() + ". You will instead draw " + playerresponse + " cards.");
+                                }
                                 for (int i = 0; i < playerresponse; i++)
                                     garbagedemo.drawCard(whatplayerisit);
                             }
@@ -309,6 +313,10 @@ public class MemoryMergeDriver {
                                 System.out.println("How much garbage is Player " + whatplayerisit + " drawing?");
                                 playerresponse = scanner.nextInt();
                                 scanner.nextLine();
+                                if (playerresponse > garbagedemo.getTotalGarbage()) {
+                                    playerresponse = garbagedemo.getTotalGarbage();
+                                    System.out.println("The deck has only " + garbagedemo.getTotalGarbage() + ". You will instead draw " + playerresponse + " cards.");
+                                }
                                 for (int i = 0; i < playerresponse; i++)
                                     garbagedemo.gainTrash(whatplayerisit);
                             }

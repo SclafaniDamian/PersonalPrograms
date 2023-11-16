@@ -466,6 +466,14 @@ public class TheGarbageGameDemo {
         }
     }
 
+    public int getTotalDeck() {
+        return trashmammalsdeck.size();
+    }
+
+    public int getTotalGarbage() {
+        return garbagedeck.size();
+    }
+
     private void populateDecks() {
         // Trash Mammals
         for (int i = 0; i < 3; i++) {
