@@ -6,6 +6,7 @@ public class PPScavenge {
     private ArrayList<String> goods = new ArrayList<>();
     private ArrayList<String> spellsheets = new ArrayList<>();
     private ArrayList<String> daggers = new ArrayList<>();
+    private ArrayList<String> league = new ArrayList<>();
 
     public PPScavenge() {
         setItems();
@@ -79,7 +80,12 @@ public class PPScavenge {
         goods.add("43. Varus, The Arrow of Retribution");
         goods.add("44. Naafiri, The Hound of a Hundred Bites");
         goods.add("45. Chemical-Covered Bone");
-        goods.add("46. Ashe's Bow");
+        goods.add("46. Trueice Bow");
+        goods.add("47. Divine Sunderer");
+        goods.add("48. Crown of the Shattered Queen");
+        goods.add("49. Duskblade of Draktharr");
+        goods.add("50. Echoes of Helia");
+        goods.add("51. Eclipse");
         // Spellsheets
         spellsheets.add("1. Splash");
         spellsheets.add("2. Meteor");
@@ -207,5 +213,17 @@ public class PPScavenge {
         daggers.add("25. Handcrafted Shiv");
         daggers.add("26. Whittling Knife");
         daggers.add("44. Naafiri, The Hound of a Hundred Bites");
+        daggers.add("49. Duskblade of Draktharr");
+        daggers.add("51. Eclipse");
+        // League
+        league.add("41. Aatrox, The Darkin Blade");
+        league.add("42. Kayn, The Shadow Reaper");
+        league.add("43. Varus, The Arrow of Retribution");
+        league.add("44. Naafiri, The Hound of a Hundred Bites");
+        league.add("47. Divine Sunderer");
+        league.add("48. Crown of the Shattered Queen");
+        league.add("49. Duskblade of Draktharr");
+        league.add("50. Echoes of Helia");
+        league.add("51. Eclipse");
     }
 }
