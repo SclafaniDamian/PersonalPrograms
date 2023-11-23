@@ -8,6 +8,7 @@ public class PPScavenge {
     private ArrayList<String> daggers = new ArrayList<>();
     private ArrayList<String> league = new ArrayList<>();
     private ArrayList<String> ores = new ArrayList<>();
+    private ArrayList<String> nondurability = new ArrayList<>();
 
     public PPScavenge() {
         setItems();
@@ -45,6 +46,13 @@ public class PPScavenge {
         int rand = (int)(Math.random()*ores.size());
         String result = "";
         result += ores.get(rand);
+        return result;
+    }
+
+    public String scavengeNondurability() {
+        int rand = (int)(Math.random()*nondurability.size());
+        String result = "";
+        result += nondurability.get(rand);
         return result;
     }
 
@@ -162,6 +170,7 @@ public class PPScavenge {
         goods.add("G110. Rapid Firecannon");
         goods.add("G111. Zhonya's Hourglass");
         goods.add("G112. Dagger");
+        goods.add("G113. Guardian's Horn");
         // Spellsheets
         spellsheets.add("S1. Splash");
         spellsheets.add("S2. Meteor");
@@ -307,5 +316,29 @@ public class PPScavenge {
             ores.add(goods.get(i));
         ores.add(goods.get(82));
         ores.add(goods.get(83));
+        // Non-Durability
+        for (int i = 27; i < 31; i++)
+            nondurability.add(goods.get(i));
+        nondurability.add(goods.get(34));
+        for (int i = 36; i < 40; i++)
+            nondurability.add(goods.get(i));
+        nondurability.add(goods.get(44));
+        nondurability.add(goods.get(47));
+        nondurability.add(goods.get(51));
+        nondurability.add(goods.get(58));
+        nondurability.add(goods.get(61));
+        nondurability.add(goods.get(66));
+        nondurability.add(goods.get(67));
+        for (int i = 70; i < 73; i++)
+            nondurability.add(goods.get(i));
+        for (int i = 75; i < 78; i++)
+            nondurability.add(goods.get(i));
+        for (int i = 82; i < 85; i++)
+            nondurability.add(goods.get(i));
+        nondurability.add(goods.get(89));
+        nondurability.add(goods.get(94));
+        nondurability.add(goods.get(104));
+        nondurability.add(goods.get(107));
+        nondurability.add(goods.get(112));
     }
 }
