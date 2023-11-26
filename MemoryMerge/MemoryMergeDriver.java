@@ -229,7 +229,7 @@ public class MemoryMergeDriver {
                 case 14:
                     PPScavenge ppscavenge = new PPScavenge();
                     System.out.println("What are you scavenging for?");
-                    System.out.println("0. Goods\n1. Spellsheets\n2. Daggers\n3. League\n4. Ores\n5. Non-Durability");
+                    System.out.println("0. Goods\n1. Spellsheets\n2. Daggers\n3. League\n4. Ores\n5. TF2");
                     int nextinput = scanner.nextInt();
                     scanner.nextLine();
                     System.out.println("How many of these items are you scavenging?");
@@ -258,7 +258,7 @@ public class MemoryMergeDriver {
                     }
                     else if (nextinput == 5) {
                         for (int i = 0; i < numberinput; i++)
-                            System.out.println(ppscavenge.scavengeNondurability());
+                            System.out.println(ppscavenge.scavengetf2());
                     }
                     else {
                         System.out.println("ERROR: Invalid value entered!");

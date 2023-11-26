@@ -8,7 +8,7 @@ public class PPScavenge {
     private ArrayList<String> daggers = new ArrayList<>();
     private ArrayList<String> league = new ArrayList<>();
     private ArrayList<String> ores = new ArrayList<>();
-    private ArrayList<String> nondurability = new ArrayList<>();
+    private ArrayList<String> tf2 = new ArrayList<>();
 
     public PPScavenge() {
         setItems();
@@ -49,10 +49,10 @@ public class PPScavenge {
         return result;
     }
 
-    public String scavengeNondurability() {
-        int rand = (int)(Math.random()*nondurability.size());
+    public String scavengetf2() {
+        int rand = (int)(Math.random()*tf2.size());
         String result = "";
-        result += nondurability.get(rand);
+        result += tf2.get(rand);
         return result;
     }
 
@@ -171,6 +171,80 @@ public class PPScavenge {
         goods.add("G111. Zhonya's Hourglass");
         goods.add("G112. Dagger");
         goods.add("G113. Guardian's Horn");
+        goods.add("G114. Scattergun");
+        goods.add("G115. Force-A-Nature");
+        goods.add("G116. Soda Popper");
+        goods.add("G117. Baby Face's Blaster");
+        goods.add("G118. Back Scatter");
+        goods.add("G119. Lugermorph");
+        goods.add("G120. Winger");
+        goods.add("G121. Pretty Boy's Pocket Pistol");
+        goods.add("G122. Flying Guillotine");
+        goods.add("G123. Bonk! Atomic Punch");
+        goods.add("G124. Crit-a-Cola");
+        goods.add("G125. Mad Milk");
+        goods.add("G126. Mutated Milk");
+        goods.add("G127. Holy Mackerel");
+        goods.add("G128. Candy Cane");
+        goods.add("G129. Sun-on-a-Stick");
+        goods.add("G130. C.A.P.P.E.R.");
+        goods.add("G131. Black Box");
+        goods.add("G132. Rocket Jumper");
+        goods.add("G133. Liberty Launcher");
+        goods.add("G134. Cow Mangler 5000");
+        goods.add("G135. Shotgun");
+        goods.add("G136. Equalizer");
+        goods.add("G137. Shovel");
+        goods.add("G138. Flame Thrower");
+        goods.add("G139. Backburner");
+        goods.add("G140. Degreaser");
+        goods.add("G141. Dragon's Fury");
+        goods.add("G142. Flare Gun");
+        goods.add("G143. Manmelter");
+        goods.add("G144. Scorch Shot");
+        goods.add("G145. Gas Passer");
+        goods.add("G146. Fire Axe");
+        goods.add("G147. Axtinguiser");
+        goods.add("G148. Postel Pummeler");
+        goods.add("G149. Powerjack");
+        goods.add("G150. Backscratcher");
+        goods.add("G151. Sharpened Volcano Fragment");
+        goods.add("G152. Neon Annihilator");
+        goods.add("G153. Bottle");
+        goods.add("G154. Scottish Handshake");
+        goods.add("G155. Eyelander");
+        goods.add("G156. Horseless Headless Horsemann's Headtaker");
+        goods.add("G157. Nessie's Nine Iron");
+        goods.add("G158. Scotsman's Skullcutter");
+        goods.add("G159. Ullapool Caber");
+        goods.add("G160. Persian Persuader");
+        goods.add("G161. Minigun");
+        goods.add("G162. Iron Curtain");
+        goods.add("G163. Natascha");
+        goods.add("G164. Brass Beast");
+        goods.add("G165. Tomislav");
+        goods.add("G166. Huo-Long Heater");
+        goods.add("G167. Sandvich");
+        goods.add("G168. Dalokohs Bar");
+        goods.add("G169. Buffalo Steak Sandvich");
+        goods.add("G170. Medi Gun");
+        goods.add("G171. Kritzkreig");
+        goods.add("G172. Sniper Rifle");
+        goods.add("G173. AWPer Hand");
+        goods.add("G174. Huntsman");
+        goods.add("G175. Fortified Compound");
+        goods.add("G176. Machina");
+        goods.add("G177. Jarate");
+        goods.add("G178. Shahansha");
+        goods.add("G179. Bushwacka");
+        goods.add("G180. Revolver");
+        goods.add("G181. Ambassador");
+        goods.add("G182. Your Eternal Reward");
+        goods.add("G183. Conniver's Kunai");
+        goods.add("G184. Big Earner");
+        goods.add("G185. Spy-cicle");
+        goods.add("G186. Invis Watch");
+        goods.add("G187. Sapper");
         // Spellsheets
         spellsheets.add("S1. Splash");
         spellsheets.add("S2. Meteor");
@@ -304,6 +378,9 @@ public class PPScavenge {
         daggers.add(goods.get(63));
         daggers.add(goods.get(87));
         daggers.add(goods.get(100));
+        daggers.add(goods.get(111));
+        for (int i = 181; i < 185; i++)
+            daggers.add(goods.get(i));
         // League
         for (int i = 40; i < 44; i++)
             league.add(goods.get(i));
@@ -316,29 +393,8 @@ public class PPScavenge {
             ores.add(goods.get(i));
         ores.add(goods.get(82));
         ores.add(goods.get(83));
-        // Non-Durability
-        for (int i = 27; i < 31; i++)
-            nondurability.add(goods.get(i));
-        nondurability.add(goods.get(34));
-        for (int i = 36; i < 40; i++)
-            nondurability.add(goods.get(i));
-        nondurability.add(goods.get(44));
-        nondurability.add(goods.get(47));
-        nondurability.add(goods.get(51));
-        nondurability.add(goods.get(58));
-        nondurability.add(goods.get(61));
-        nondurability.add(goods.get(66));
-        nondurability.add(goods.get(67));
-        for (int i = 70; i < 73; i++)
-            nondurability.add(goods.get(i));
-        for (int i = 75; i < 78; i++)
-            nondurability.add(goods.get(i));
-        for (int i = 82; i < 85; i++)
-            nondurability.add(goods.get(i));
-        nondurability.add(goods.get(89));
-        nondurability.add(goods.get(94));
-        nondurability.add(goods.get(104));
-        nondurability.add(goods.get(107));
-        nondurability.add(goods.get(112));
+        // TF2
+        for (int i = 113; i < 187; i++)
+            tf2.add(goods.get(i));
     }
 }
