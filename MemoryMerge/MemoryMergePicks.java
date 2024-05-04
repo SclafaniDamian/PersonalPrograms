@@ -1845,6 +1845,7 @@ public class MemoryMergePicks {
         explore.add("Vampire Hunters (11)");
         explore.add("Temple of Memories (12)");
         explore.add("Personal Personas (13)");
+        explore.add("Garbage Casino (14)");
         // Adding Forgotten Lands Gamemode as an option for ALL gamemode selections
         chosenGamemode.add(gamemodes.get(16));
     }
